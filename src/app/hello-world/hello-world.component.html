@@ -1,0 +1,26 @@
+
+    <body [ngStyle]="{'max-width': '500px',
+        'margin': 'auto'}">
+        <div [ngStyle]="{'justify-content': 'center',
+        'display': 'flex'}">
+            <h3 [ngStyle]="{
+                'font-size': size,
+                'color':color
+                }">Hello World !</h3>
+        </div>
+        
+        <div [ngStyle]="{'justify-content': 'center',
+        'display': 'flex'}">
+            <input type="text" class="form-control" [(ngModel)]="color">
+            <input type="text" 
+                class="form-control" 
+                [(ngModel)]="size">
+        </div>
+    </body>
+    
+    
+
+
+
+
+  
